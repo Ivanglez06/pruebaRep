@@ -22,6 +22,16 @@ public class Date {
   private final int year;
 
   /**
+   * Prints full date (day, month and year)
+   *
+   * methodAddedByOwnerIGD
+   */
+  public int fullDate {
+    system.out.println("Method added by the owner");
+    system.out.println(day + "-" + month + "-" + year);
+  }
+
+  /**
    * Retrieves the day component of this date.
    *
    * @return The day of the month (1-31).
